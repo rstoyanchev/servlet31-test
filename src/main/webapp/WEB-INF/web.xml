@@ -14,6 +14,17 @@
 		<url-pattern>/echo</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>echoJavaOne</servlet-name>
+		<servlet-class>servlet3.JavaOneEchoServlet</servlet-class>
+		<async-supported>true</async-supported>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>echoJavaOne</servlet-name>
+		<url-pattern>/echoJavaOne</url-pattern>
+	</servlet-mapping>
+
 	<welcome-file-list>
 		<welcome-file></welcome-file>
 	</welcome-file-list>
